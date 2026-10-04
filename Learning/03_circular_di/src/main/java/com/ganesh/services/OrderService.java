@@ -6,21 +6,22 @@ import org.springframework.stereotype.Component;
 @Component
 public class OrderService {
 
-    @Autowired
-    private PaymentService paymentService;
+//    @Autowired
+    private final PaymentService paymentService;
 
-//    public OrderService(PaymentService paymentService) {
-//        this.paymentService = paymentService;
-//        System.out.println("Order Service Initialized");
-//    }
-
-    public OrderService() {
-        System.out.println("Default Order Service Constructor Called");
+    public OrderService(PaymentService paymentService) {
+        this.paymentService = paymentService;
+        System.out.println("Order Service Initialized");
     }
+
+//    public OrderService() {
+//        System.out.println("Default Order Service Constructor Called");
+//    }
 
     public void placeOrder() {
         System.out.println("Order placed successfully!");
         paymentService.pay();
+        this.getOrderDetails();
     }
 
     public void getOrderDetails() {
