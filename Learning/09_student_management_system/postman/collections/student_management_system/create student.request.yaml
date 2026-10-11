@@ -1,0 +1,17 @@
+$kind: http-request
+url: http://localhost:8080/api/students
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"name\": \"Deepak\",\r
+
+    \    \"email\": \"deepak@gmail.com\",\r
+
+    \    \"age\": 21,\r
+
+    \    \"gender\": \"Male\"\r
+
+    }"
+order: 1000
