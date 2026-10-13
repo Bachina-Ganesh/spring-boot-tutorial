@@ -1,0 +1,9 @@
+$kind: http-request
+url: http://localhost:8081/user-app/users?id=2&name=Ganesh&email=ganesh@gmail.com&age=2
+method: POST
+queryParams:
+  id: "2"
+  name: Ganesh
+  email: ganesh@gmail.com
+  age: "2"
+order: 1000

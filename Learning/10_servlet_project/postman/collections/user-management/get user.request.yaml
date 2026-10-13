@@ -1,0 +1,9 @@
+$kind: http-request
+url: http://localhost:8081/user-app/users
+method: GET
+queryParams:
+  - key: id
+    value: "1"
+    disabled: true
+    description: ""
+order: 2000
