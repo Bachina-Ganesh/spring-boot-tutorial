@@ -1,0 +1,18 @@
+$kind: http-request
+name: New Request
+url: http://localhost:8080/employees/2
+method: PUT
+body:
+  type: json
+  content: "{\r
+
+    \t\"name\": \"Deepak\",\r
+
+    \t\"email\": \"deepak@gmail.com\",\r
+
+    \t\"salary\": 7000,\r
+
+    \t\"address\": \"Chennai\"\r
+
+    }"
+order: 5000
