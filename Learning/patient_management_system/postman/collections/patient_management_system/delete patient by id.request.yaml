@@ -1,0 +1,4 @@
+$kind: http-request
+url: http://localhost:8080/patients/1
+method: DELETE
+order: 4000

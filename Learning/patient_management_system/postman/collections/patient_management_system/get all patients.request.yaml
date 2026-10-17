@@ -1,0 +1,5 @@
+$kind: http-request
+description: ""
+url: http://localhost:8080/patients
+method: GET
+order: 3000

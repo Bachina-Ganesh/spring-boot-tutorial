@@ -1,0 +1,17 @@
+$kind: http-request
+url: http://localhost:8080/patients/2
+method: PUT
+body:
+  type: json
+  content: "{\r
+
+    \t\"name\": \"Kalil\",\r
+
+    \t\"email\": \"kalil@gmail.com\",\r
+
+    \t\"mobileNumber\": \"9898788990\",\r
+
+    \t\"address\": \"Hyderabad\"\r
+
+    }"
+order: 5000
