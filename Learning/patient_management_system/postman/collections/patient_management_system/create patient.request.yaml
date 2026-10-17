@@ -5,11 +5,11 @@ body:
   type: json
   content: "{\r
 
-    \t\"name\": \"Suresh\",\r
+    \t\"name\": \"Lakshman\",\r
 
-    \t\"email\": \"suresh@gmail.com\",\r
+    \t\"email\": \"lakshman@gmail.com\",\r
 
-    \t\"mobileNumber\": \"7890894589\",\r
+    \t\"mobileNumber\": \"8890894589\",\r
 
     \t\"address\": \"Mumbai\"\r
 
