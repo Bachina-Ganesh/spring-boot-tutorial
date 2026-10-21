@@ -1,0 +1,6 @@
+$kind: http-request
+description: ""
+url: http://localhost:8080/students/1
+method: GET
+examples: .resources/get student by id.resources/examples
+order: 2000
