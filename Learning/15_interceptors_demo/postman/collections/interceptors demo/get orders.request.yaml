@@ -1,0 +1,12 @@
+$kind: http-request
+description: ""
+url: http://localhost:8080/lorders
+method: GET
+headers:
+  X-Api-Key: secret123
+queryParams:
+  - key: X-Api-Key
+    value: secret123
+    disabled: true
+    description: ""
+order: 1000
