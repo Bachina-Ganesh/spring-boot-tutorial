@@ -1,0 +1,15 @@
+$kind: http-request
+url: http://localhost:8080/employees/1
+method: PUT
+body:
+  type: json
+  content: "{\r
+
+    \t\"name\": \"Ganesh\",\r
+
+    \t\"email\": \"ganesh@gmail.com\",\r
+
+    \t\"address\": \"mumbai\"\r
+
+    }"
+order: 3000

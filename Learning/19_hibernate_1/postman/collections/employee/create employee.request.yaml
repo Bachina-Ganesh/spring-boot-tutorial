@@ -1,0 +1,31 @@
+$kind: http-request
+url: http://localhost:8080/employees
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \t\"name\": \"Kalil\",\r
+
+    \t\"email\": \"kalil@gmail.com\",\r
+
+    \t\"address\": \"chennai\",\r
+
+    \t\"gender\": \"MALE\",\r
+
+    \t\"isActive\": true,\r
+
+    \t\"cityAddress\": {\r
+
+    \t\t\"street\": \"Marital Beach\",\r
+
+    \t\t\"city\": \"chennai\",\r
+
+    \t\t\"pinCode\": 52012\r
+
+    \t},\r
+
+    \t\"skills\": [\"Java\", \"Python\", \"C++\"]\r
+
+    }"
+order: 1000
