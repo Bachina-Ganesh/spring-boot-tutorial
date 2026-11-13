@@ -1,7 +1,21 @@
 $kind: http-request
-url: http://localhost:8080/department
+url: http://localhost:8080/department/withstudent
 method: POST
 body:
   type: json
-  content: "{\r\n\t\"name\": \"ECE\"\r\n}"
+  content: "{\r
+
+    \t\"name\": \"MECH\",\r
+
+    \t\"students\": [\r
+
+    \t\t{\r
+
+    \t\t\t\"name\": \"Kalil\"\r
+
+    \t\t}\r
+
+    \t]\r
+
+    }"
 order: 1000
