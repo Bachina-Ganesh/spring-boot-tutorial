@@ -1,0 +1,9 @@
+$kind: http-request
+url: http://localhost:8080/students?deptId=2
+method: POST
+queryParams:
+  deptId: "2"
+body:
+  type: json
+  content: "{\r\n\t\"name\": \"Suresh\"\r\n}"
+order: 1000
