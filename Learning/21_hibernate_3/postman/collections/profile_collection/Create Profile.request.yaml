@@ -1,0 +1,17 @@
+$kind: http-request
+url: http://localhost:8080/profiles
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \t\"bio\": \"Working as testing developer\",\r
+
+    \t\"user\": {\r
+
+    \t\t\"name\": \"Lakshman\"\r
+
+    \t}\r
+
+    }"
+order: 1000
