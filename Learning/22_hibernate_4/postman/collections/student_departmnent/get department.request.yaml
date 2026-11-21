@@ -1,4 +1,4 @@
 $kind: http-request
-url: http://localhost:8080/departments/2
+url: http://localhost:8080/departments/3
 method: GET
 order: 2000

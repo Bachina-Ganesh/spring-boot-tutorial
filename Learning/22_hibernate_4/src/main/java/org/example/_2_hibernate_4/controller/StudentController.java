@@ -6,6 +6,8 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.List;
+
 @RestController
 @RequestMapping("/students")
 public class StudentController {
@@ -32,5 +34,11 @@ public class StudentController {
     public ResponseEntity<String> deleteStudent(@PathVariable Long id) {
         String response = this.studentService.deleteStudent(id);
         return ResponseEntity.ok(response);
+    }
+
+    @GetMapping
+    public ResponseEntity<List<Student>> getStudents() {
+        List<Student> students = this.studentService.getAllStudents();
+        return ResponseEntity.ok(students);
     }
 }

@@ -1,18 +1,21 @@
 $kind: http-request
-url: http://localhost:8080/students?deptId=1
+url: http://localhost:8080/students?deptId=3
 method: POST
 queryParams:
-  - key: deptId
-    value: "1"
-    disabled: false
-    description: ""
+  deptId: "3"
 body:
   type: json
   content: "{\r
 
-    \t\"name\": \"Lakshmi\",\r
+    \t\"name\": \"Suresh\",\r
 
-    \t\"gender\": \"FEMALE\"\r
+    \t\"gender\": \"MALE\",\r
+
+    \t\"profile\": {\r
+
+    \t\t\"description\": \"Working as java developer\"\r
+
+    \t}\r
 
     }"
 order: 3000
