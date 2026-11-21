@@ -1,0 +1,18 @@
+$kind: http-request
+url: http://localhost:8080/students?deptId=1
+method: POST
+queryParams:
+  - key: deptId
+    value: "1"
+    disabled: false
+    description: ""
+body:
+  type: json
+  content: "{\r
+
+    \t\"name\": \"Lakshmi\",\r
+
+    \t\"gender\": \"FEMALE\"\r
+
+    }"
+order: 3000
